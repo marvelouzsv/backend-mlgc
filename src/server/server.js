@@ -47,7 +47,7 @@ const httpServer = async () => {
 
   await server.start();
 
-  logger.info(`Asclepius Server running on ${server.info.uri}`);
+  logger.info(`Marvelouzsv Server running on ${server.info.uri}`);
 };
 
 export default httpServer;
